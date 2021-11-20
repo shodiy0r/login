@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(./img/empty-square-neon-background-free-vector.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.form{
+    width: 755px;
+    background-color: rgba(245, 245, 245, 0.1);
+    border: 2px solid rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    padding: 110px;
+}
+.input_email{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    border: 2px solid rgba(243, 239, 239, 0.938);
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.input_password{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    border: 2px solid rgba(255, 244, 244, 0.993);
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.form__btn{
+    background-color: #dfdfdf;
+    border: none;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
